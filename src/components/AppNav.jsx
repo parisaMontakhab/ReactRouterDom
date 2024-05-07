@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 export default function AppNav() {
   return (
@@ -7,13 +7,13 @@ export default function AppNav() {
           <nav>
     <ul>
       <li>
-        <Link to="/">Home</Link>
+        <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <Link to="/posts">Post</Link>
+        <NavLink to="/posts">Post</NavLink>
       </li>
       <li>
-        <Link to="/dashboard">Dashboard</Link>
+        <NavLink to="/dashboard">Dashboard</NavLink>
       </li>
     </ul>
   </nav>
