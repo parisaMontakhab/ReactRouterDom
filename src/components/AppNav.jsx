@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 export default function AppNav() {
   return (
@@ -6,13 +7,13 @@ export default function AppNav() {
           <nav>
     <ul>
       <li>
-        <a href="/">Home</a>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <a href="/posts">Post</a>
+        <Link to="/posts">Post</Link>
       </li>
       <li>
-        <a href="/dashboard">Dashboard</a>
+        <Link to="/dashboard">Dashboard</Link>
       </li>
     </ul>
   </nav>
