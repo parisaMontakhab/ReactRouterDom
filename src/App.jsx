@@ -9,19 +9,7 @@ import Dashboard from "./pages/Dashboard";
 function App() {
   return (
 <div>
-  <nav>
-    <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/posts">Post</a>
-      </li>
-      <li>
-        <a href="/dashboard">Dashboard</a>
-      </li>
-    </ul>
-  </nav>
+
   <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/posts" element={<Posts/>}/>
