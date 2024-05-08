@@ -6,6 +6,8 @@ import Posts from "./pages/Posts";
 import Dashboard from "./pages/Dashboard";
 import AppNav from "./components/AppNav";
 import Layout from "./components/Layout";
+import Profile from "./components/Profile";
+import Payment from "./components/Payment";
 
 
 function App() {
@@ -18,7 +20,10 @@ function App() {
 
     <Route path="/" element={<Home/>}/>
     <Route path="/posts" element={<Posts/>}/>
-    <Route path="/dashboard" element={<Dashboard/>}/>
+    <Route path="/dashboard" element={<Dashboard/>}>
+      <Route path="/profile" element={<Profile/>}/>
+      <Route path="/payments" element={<Payment/>}/>
+    </Route>
 
     </Route>
     
