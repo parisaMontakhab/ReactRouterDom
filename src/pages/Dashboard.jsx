@@ -5,11 +5,11 @@ export default function Dashboard() {
   return (
     <div id='dashboard'>
       <div id='sidebar'>
-        <NavLink to="/profile">
+        <NavLink to="profile">
        Profile
         </NavLink>
 
-        <NavLink to="/payments">
+        <NavLink to="payments">
        Payment
         </NavLink>
 

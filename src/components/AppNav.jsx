@@ -7,13 +7,13 @@ export default function AppNav() {
           <nav>
     <ul>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink  end to="/app">Home</NavLink>
       </li>
       <li>
-        <NavLink to="/posts">Post</NavLink>
+        <NavLink to="posts">Post</NavLink>
       </li>
       <li>
-        <NavLink to="/dashboard">Dashboard</NavLink>
+        <NavLink to="dashboard">Dashboard</NavLink>
       </li>
     </ul>
   </nav>
