@@ -16,6 +16,7 @@ function App() {
     <Route path="/posts" element={<Posts/>}/>
     <Route path="/dashboard" element={<Dashboard/>}/>
   </Routes>
+  <footer style={{marginTop:150}}> This is footer</footer>
 </div>
   );
 }
